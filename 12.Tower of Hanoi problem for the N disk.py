@@ -1,11 +1,11 @@
-# Author: MD.Shahdat Hossain Bhuian 
-def TowerOfHanoi(n , source, destination, auxiliary):
-    if n==1:
-        print ("Move disk 1 from source",source,"to destination",destination)
+def tower_of_hanoi(n, source, destination, auxiliary):
+    if n == 1:
+        print("Move disk 1 from source", source, "to destination", destination)
         return
-    TowerOfHanoi(n-1, source, auxiliary, destination)
-    print ("Move disk",n,"from source",source,"to destination",destination)
-    TowerOfHanoi(n-1, auxiliary, destination, source)
-         
-n = 4
-TowerOfHanoi(n,'A','B','C')
+    tower_of_hanoi(n-1, source, auxiliary, destination)
+    print("Move disk", n, "from source", source, "to destination", destination)
+    tower_of_hanoi(n-1, auxiliary, destination, source)
+
+
+no = 4
+tower_of_hanoi(no, 'A', 'B', 'C')

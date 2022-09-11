@@ -1,18 +1,17 @@
-# Author: MD.Shahdat Hossain Bhuian
 def search(pat, txt):
-	M = len(pat)
-	N = len(txt)
+	m = len(pat)
+	n = len(txt)
 
-	for i in range(N - M + 1):
+	for i in range(n - m + 1):
 		j = 0
-		while(j < M):
-			if (txt[i + j] != pat[j]):
+		while j < m:
+			if txt[i + j] != pat[j]:
 				break
 			j += 1
-		if (j == M):
+		if j == m:
 			print("Pattern found at index ", i)
 
 
-text=input("Enter a line of text: ")
-pattern=input("Enter a Pattern: ")
-search(pattern,text)
+text = input("Enter a line of text: ")
+pattern = input("Enter a Pattern: ")
+search(pattern, text)

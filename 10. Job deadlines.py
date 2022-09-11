@@ -1,5 +1,4 @@
-# Author: MD.Shahdat Hossain Bhuian
-def printJobScheduling(arr, t):
+def print_job_scheduling(arr, t):
 	n = len(arr)
 	for i in range(n):
 		for j in range(n - 1 - i):
@@ -14,8 +13,8 @@ def printJobScheduling(arr, t):
 				job[j] = arr[i][0]
 				break
 	print(job)
- 
- 
-arr = [['a', 1, 3],['b', 3, 25],['c', 2, 1],['d', 1, 6],['e', 2, 30]]
+
+
+array = [['a', 1, 3], ['b', 3, 25], ['c', 2, 1], ['d', 1, 6], ['e', 2, 30]]
 print("Following is maximum profit sequence of jobs")
-printJobScheduling(arr, 3)
+print_job_scheduling(array, 3)

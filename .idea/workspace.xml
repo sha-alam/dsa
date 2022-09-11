@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="949a87e3-0348-4cd2-b123-89a30f43f381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DSA_Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB LIST.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.insert and delete element into linear array.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.insert and delete element into linear array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Job deadlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/10. Job deadlines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.  01 knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.  01 knapsack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.Tower of Hanoi problem for the N disk.py" beforeDir="false" afterPath="$PROJECT_DIR$/12.Tower of Hanoi problem for the N disk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.implement a queue data structure along with it's typical operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/13.implement a queue data structure along with it's typical operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.sort a linear array using the merge sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.sort a linear array using the merge sort algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.sort a linear array using the selection sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.sort a linear array using the selection sort algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.find a given pattern from text using the first pattern matching algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.find a given pattern from text using the first pattern matching algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.n queen's problem using backtracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.n queen's problem using backtracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.find the sortest path from a graph using kruskal's algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.find the sortest path from a graph using kruskal's algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problem List.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Ed9KPVDBPf16RTjlz5WH6ZI06a" />
   <component name="ProjectLevelVcsManager">
@@ -42,16 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Sha Alam/Desktop/2-2/DSA/DSA_Lab"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sha Alam/Desktop/2-2/DSA/DSA_Lab&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="problem4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.trail">
+    <configuration name="11.  01 knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +74,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.  01 knapsack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.sort a linear array using the bubble sort algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.find an element using a linear search algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.find an element using the binary search algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.problem4" />
+        <item itemvalue="Python.trail" />
+        <item itemvalue="Python.4.find an element using the binary search algorithm" />
+        <item itemvalue="Python.3.find an element using a linear search algorithm" />
+        <item itemvalue="Python.2.sort a linear array using the bubble sort algorithm" />
+        <item itemvalue="Python.11.  01 knapsack" />
       </list>
     </recent_temporary>
   </component>

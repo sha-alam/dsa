@@ -1,5 +1,3 @@
-# Author: MD.Shahdat Hossain Bhuian
-
 from typing import List
 board_cnt = 0
 
@@ -36,11 +34,11 @@ def PlaceNQueens (chessboard : List, col : int) :
             if (IsBoardOk(chessboard, row, col) == True) :
                 PlaceNQueens(chessboard, col + 1)
             chessboard[row][col] = '-';
-            
+
 
 chessboard = []
 N = int(input("Enter chessboard size : "))
-for i in range(N) :
+for i in range(N):
     row = ["-"] * N
     chessboard.append(row)
 PlaceNQueens(chessboard, 0)

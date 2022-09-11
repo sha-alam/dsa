@@ -1,5 +1,5 @@
 1. Write a Program to insert and delete an element into a linear array
-2. Write a Program to sort a linear array using the dubble sort algorithm
+2. Write a Program to sort a linear array using the bubble sort algorithm
 3. Write a Program to find an element using a linear search algorithm
 4. Write a Program to find an element using the binary search algorithm
 5. Write a Program to sort a linear array using the merge sort algorithm
@@ -12,4 +12,4 @@ deadlines(d1,d2,d3,d4,d5)=(1,3,2,1,2)
 11.write a program to solve the following 0/1 knapsack using dynamic programming approach profits P=(15,25,13,23),Weight W=(2,6,12,9),knapsack C=20
 and number of items n=4
 12. Write a Program to solve the Tower of Hanoi problem for the N disk.
-13. Write a Program to implement a queue data structure along with it's typical operations
+13. Write a Program to implement a queue data structure along with its typical operations

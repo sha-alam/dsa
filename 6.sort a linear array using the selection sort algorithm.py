@@ -1,12 +1,12 @@
-# Author: MD.Shahdat Hossain Bhuian
-def selectionSort(arr, size):	
+def selection_sort(arr, size):
 	for idx in range(size):
-		min_index = idx
+		min_i = idx
 		for j in range(idx + 1, size):
-			if arr[j] < arr[min_index]:
-				min_index = j
-		arr[idx], arr[min_index] = arr[min_index], arr[idx]
+			if arr[j] < arr[min_i]:
+				min_i = j
+		arr[idx], arr[min_i] = arr[min_i], arr[idx]
 
-arr = list(map(int,input("Enter an arr: ").split()))
-selectionSort(arr, len(arr))
-print('After selection sort: ',arr)
+
+array = list(map(int, input("Enter an arr: ").split()))
+selection_sort(array, len(array))
+print('After selection sort: ', array)

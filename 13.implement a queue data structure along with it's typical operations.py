@@ -1,7 +1,6 @@
-# Author: MD.Shahdat Hossain Bhuian
 from queue import Queue
 
-q = Queue(maxsize = 3)
+q = Queue(maxsize=3)
 
 print(q.qsize())
 
@@ -19,4 +18,3 @@ print("\nEmpty: ", q.empty())
 q.put(1)
 print("\nEmpty: ", q.empty())
 print("Full: ", q.full())
-
