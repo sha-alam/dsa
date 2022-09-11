@@ -1,5 +1,4 @@
 # Author: MD.Shahdat Hossain Bhuian
-
 def search(pat, txt):
 	M = len(pat)
 	N = len(txt)
