@@ -39,5 +39,5 @@ def n_queen(n):
 
 
 n_queen(N)
-for i in board:
-    print(i)
+for a in board:
+    print(a)

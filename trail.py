@@ -1,43 +1,22 @@
-# Problem-8: Write a program to solve 𝑛 queen's problem using backtracking
-print("Enter the number of queens: ")
-N = int(input())
-# NxN matrix with all elements 0
-board = [[0] * N for _ in range(N)]
+def ks(W, wt, val, n):
+    K = [[0 for x in range(W + 1)] for x in range(n + 1)]
+
+    # Build table K[][] in bottom up manner
+    for i in range(n + 1):
+        for w in range(W + 1):
+            if i == 0 or w == 0:
+                K[i][w] = 0
+            elif wt[i - 1] <= w:
+                K[i][w] = max(val[i - 1]
+                              + K[i - 1][w - wt[i - 1]],
+                              K[i - 1][w])
+            else:
+                K[i][w] = K[i - 1][w]
+
+    return K[n][W]
 
 
-def is_attack(i, j):
-    # checking if there is a queen in row or column
-    for k in range(0, N):
-        if board[i][k] == 1 or board[k][j] == 1:
-            return 1
-    # checking diagonals
-    for k in range(0, N):
-        for l in range(0, N):
-            if (k + l == i + j) or (k - l == i - j):
-                if board[k][l] == 1:
-                    return 1
-    return 0
-
-
-def n_queen(n):
-    # if n is 0, solution found
-    if n == 0:
-        return 1
-    for i in range(0, N):
-        for j in range(0, N):
-            '''checking if we can place a queen here or not
-            queen will not be placed if the place is being attacked
-            or already occupied'''
-            if (not (is_attack(i, j))) and (board[i][j] != 1):
-                board[i][j] = 1
-                # recursion
-                # wether we can put the next queen with this arrangment or not
-                if n_queen(n - 1) == 1:
-                    return 1
-                board[i][j] = 0
-    return 0
-
-
-n_queen(N)
-for i in board:
-    print(i)
+p = [15, 25, 13, 23]
+wt = [2, 6, 12, 9]
+c = 20
+print(ks(c, wt, p, len(p)))

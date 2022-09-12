@@ -10,6 +10,6 @@ def knapsack(W, wt, val, n):
 
 p = [15, 25, 13, 23]
 wo = [2, 6, 12, 9]
-c = 50
+c = 20
 no = 4
 print(knapsack(c, wo, p, no))
