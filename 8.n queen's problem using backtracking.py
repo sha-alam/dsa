@@ -1,44 +1,43 @@
-from typing import List
-board_cnt = 0
+# Problem-8: Write a program to solve 𝑛 queen's problem using backtracking
+print("Enter the number of queens: ")
+N = int(input())
+# NxN matrix with all elements 0
+board = [[0] * N for _ in range(N)]
 
 
-def IsBoardOk (chessboard : List, row : int, col : int) :
-   for c in range(col) :
-       if (chessboard[row][c] == 'Q') :
-           return False
-   for r, c in zip(range(row-1, -1, -1), range(col-1, -1, -1)) :
-       if (chessboard[r][c] == 'Q') :
-           return False
-   for r, c in zip(range(row+1, len(chessboard), 1), range(col-1, -1, -1)) :
-      if (chessboard[r][c] == 'Q') :
-          return False
-   return True
+def is_attack(i, j):
+    # checking if there is a queen in row or column
+    for k in range(0, N):
+        if board[i][k] == 1 or board[k][j] == 1:
+            return 1
+    # checking diagonals
+    for k in range(0, N):
+        for l in range(0, N):
+            if (k + l == i + j) or (k - l == i - j):
+                if board[k][l] == 1:
+                    return 1
+    return 0
 
 
-def DisplayBoard (chessboard : List) :
-    for row in chessboard :
-        print(row)
+def n_queen(n):
+    # if n is 0, solution found
+    if n == 0:
+        return 1
+    for i in range(0, N):
+        for j in range(0, N):
+            '''checking if we can place a queen here or not
+            queen will not be placed if the place is being attacked
+            or already occupied'''
+            if (not (is_attack(i, j))) and (board[i][j] != 1):
+                board[i][j] = 1
+                # recursion
+                # wether we can put the next queen with this arrangment or not
+                if n_queen(n - 1) == 1:
+                    return 1
+                board[i][j] = 0
+    return 0
 
 
-def PlaceNQueens (chessboard : List, col : int) :
-    global board_cnt
-    if (col >= len(chessboard)) :
-        board_cnt += 1
-        print("Board " + str(board_cnt))
-        print("==========================")
-        DisplayBoard(chessboard)
-        print("==========================\n")
-    else :
-        for row in range(len(chessboard)) :
-            chessboard[row][col] = 'Q'
-            if (IsBoardOk(chessboard, row, col) == True) :
-                PlaceNQueens(chessboard, col + 1)
-            chessboard[row][col] = '-';
-
-
-chessboard = []
-N = int(input("Enter chessboard size : "))
-for i in range(N):
-    row = ["-"] * N
-    chessboard.append(row)
-PlaceNQueens(chessboard, 0)
+n_queen(N)
+for i in board:
+    print(i)

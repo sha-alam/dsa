@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="949a87e3-0348-4cd2-b123-89a30f43f381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.insert and delete element into linear array.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.insert and delete element into linear array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Job deadlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/10. Job deadlines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.  01 knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.  01 knapsack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12.Tower of Hanoi problem for the N disk.py" beforeDir="false" afterPath="$PROJECT_DIR$/12.Tower of Hanoi problem for the N disk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.implement a queue data structure along with it's typical operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/13.implement a queue data structure along with it's typical operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.sort a linear array using the merge sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.sort a linear array using the merge sort algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.sort a linear array using the selection sort algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.sort a linear array using the selection sort algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.find a given pattern from text using the first pattern matching algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.find a given pattern from text using the first pattern matching algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.n queen's problem using backtracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.n queen's problem using backtracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.find the sortest path from a graph using kruskal's algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.find the sortest path from a graph using kruskal's algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problem List.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trail.py" beforeDir="false" afterPath="$PROJECT_DIR$/trail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +52,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.trail">
-    <configuration name="11.  01 knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.9.find the sortest path from a graph using kruskal's algorithm">
+    <configuration name="10. Job deadlines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.  01 knapsack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10. Job deadlines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.sort a linear array using the bubble sort algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.Tower of Hanoi problem for the N disk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.sort a linear array using the bubble sort algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.Tower of Hanoi problem for the N disk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.find an element using a linear search algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13.implement a queue data structure along with it's typical operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.find an element using a linear search algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13.implement a queue data structure along with it's typical operations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.find an element using the binary search algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.n queen's problem using backtracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.find an element using the binary search algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.n queen's problem using backtracking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.find the sortest path from a graph using kruskal's algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.find the sortest path from a graph using kruskal's algorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.trail" />
-        <item itemvalue="Python.4.find an element using the binary search algorithm" />
-        <item itemvalue="Python.3.find an element using a linear search algorithm" />
-        <item itemvalue="Python.2.sort a linear array using the bubble sort algorithm" />
-        <item itemvalue="Python.11.  01 knapsack" />
+        <item itemvalue="Python.9.find the sortest path from a graph using kruskal's algorithm" />
+        <item itemvalue="Python.8.n queen's problem using backtracking" />
+        <item itemvalue="Python.10. Job deadlines" />
+        <item itemvalue="Python.12.Tower of Hanoi problem for the N disk" />
+        <item itemvalue="Python.13.implement a queue data structure along with it's typical operations" />
       </list>
     </recent_temporary>
   </component>

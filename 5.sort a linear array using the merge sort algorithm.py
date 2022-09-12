@@ -1,40 +1,36 @@
-# Author: MD.Shahdat Hossain Bhuian
-def merge(array, left_index, right_index, middle):
-    left_copy = array[left_index:middle + 1]
-    right_copy = array[middle + 1:right_index + 1]
-    left_copy_index = 0
-    right_copy_index = 0
-    sorted_index = left_index
-
-    while left_copy_index < len(left_copy) and right_copy_index < len(right_copy):
-        if left_copy[left_copy_index] <= right_copy[right_copy_index]:
-            array[sorted_index] = left_copy[left_copy_index]
-            left_copy_index = left_copy_index + 1
-        else:
-            array[sorted_index] = right_copy[right_copy_index]
-            right_copy_index = right_copy_index + 1
-        sorted_index = sorted_index + 1
-
-    while left_copy_index < len(left_copy):
-        array[sorted_index] = left_copy[left_copy_index]
-        left_copy_index = left_copy_index + 1
-        sorted_index = sorted_index + 1
-
-    while right_copy_index < len(right_copy):
-        array[sorted_index] = right_copy[right_copy_index]
-        right_copy_index = right_copy_index + 1
-        sorted_index = sorted_index + 1
-
-
-def merge_sort(array, left_index, right_index):
-    if left_index >= right_index:
-        return
-    middle = (left_index + right_index) // 2
-    merge_sort(array, left_index, middle)
-    merge_sort(array, middle + 1, right_index)
-    merge(array, left_index, right_index, middle)
+def merge_sort(arr):
+    size = len(arr)
+    if size > 1:
+        mid = size // 2
+        l_a = arr[:mid]
+        r_a = arr[mid:]
+        merge_sort(l_a)
+        merge_sort(r_a)
+        size_la = len(l_a)
+        size_ra = len(r_a)
+        p = 0
+        q = 0
+        r = 0
+        while p < size_la and q < size_ra:
+            if l_a[p] >= r_a[q]:
+                arr[r] = r_a[q]
+                q += 1
+            else:
+                arr[r] = l_a[p]
+                p += 1
+            r += 1
+        while p < size_la:
+            arr[r] = l_a[p]
+            p += 1
+            r += 1
+        while q < size_ra:
+            arr[r] = r_a[q]
+            q += 1
+            r += 1
 
 
-array = list(map(int, input("Enter an array: ").split()))
-merge_sort(array, 0, len(array) - 1)
+array = list(map(int, input("Enter your Array : ").split()))
+print("Your Array is :", array)
+merge_sort(array)
+print("Sorted Array:\n")
 print(array)

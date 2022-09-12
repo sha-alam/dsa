@@ -1,10 +1,10 @@
-def tower_of_hanoi(n, source, destination, auxiliary):
+def tower_of_hanoi(n, start, end, aux):
     if n == 1:
-        print("Move disk 1 from source", source, "to destination", destination)
+        print("Move disk 1 from start", start, "to end", end)
         return
-    tower_of_hanoi(n-1, source, auxiliary, destination)
-    print("Move disk", n, "from source", source, "to destination", destination)
-    tower_of_hanoi(n-1, auxiliary, destination, source)
+    tower_of_hanoi(n-1, start, aux, end)
+    print("Move disk", n, "from start", start, "to end", end)
+    tower_of_hanoi(n-1, aux, end, start)
 
 
 no = 4
