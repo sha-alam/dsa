@@ -28,6 +28,7 @@ class Graph:
     def kruskal_algo(self):
         result = []
         i, e = 0, 0
+        s = 0
         self.graph = sorted(self.graph, key=lambda item: item[2])
         parent = []
         rank = []
@@ -44,8 +45,9 @@ class Graph:
                 result.append([u, v, w])
                 self.apply_union(parent, rank, x, y)
         for u, v, weight in result:
-            print("%d - %d: %d" % (u, v, weight))
-
+            #print("%d - %d: %d" % (u, v, weight))
+            s = s + weight
+        print(s)
 
 g = Graph(6)
 g.add_edge(0, 1, 4)

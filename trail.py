@@ -1,22 +1,47 @@
-def ks(W, wt, val, n):
-    K = [[0 for x in range(W + 1)] for x in range(n + 1)]
+def find(parent,i):
+    if parent[i] == i:
+       return i
+    return find(parent,parent[i])
 
-    # Build table K[][] in bottom up manner
-    for i in range(n + 1):
-        for w in range(W + 1):
-            if i == 0 or w == 0:
-                K[i][w] = 0
-            elif wt[i - 1] <= w:
-                K[i][w] = max(val[i - 1]
-                              + K[i - 1][w - wt[i - 1]],
-                              K[i - 1][w])
-            else:
-                K[i][w] = K[i - 1][w]
-
-    return K[n][W]
+def union(parent,x,y):
+    parent[x] = y
+    return parent
 
 
-p = [15, 25, 13, 23]
-wt = [2, 6, 12, 9]
-c = 20
-print(ks(c, wt, p, len(p)))
+def kruskal(nodes,u,v,w):
+    parent = [i for i in range(nodes+1)]
+    E = [[i,j,k] for i,j,k in zip(u,v,w)]
+    i,e,res = 0,0,0
+    E.sort(key = lambda a : a[-1])
+    while e < nodes - 1:
+         uu,vv,ww = E[i]
+         xr = find(parent,uu)
+         yr = find(parent,vv)
+         if xr!= yr:
+            e+=1
+            res+=ww
+            parent = union(parent,xr,yr)
+         i+=1
+    return res
+
+
+nodes , edges = map(int,input().rstrip().split())
+u = [0]*edges
+v = [0]*edges
+w = [0]*edges
+for i in range(edges):
+     u[i],v[i],w[i] = map(int,input().rstrip().split())
+res = kruskal(nodes,u,v,w)
+print(res)
+print(E)
+
+
+# Input
+# 4 6
+# 1 2 5
+# 1 3 3
+# 4 1 6
+# 2 4 7
+# 3 2 4
+# 3 4 5
+# 12
